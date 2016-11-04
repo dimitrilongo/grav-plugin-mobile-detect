@@ -56,7 +56,8 @@ For more informations, please check the [Installation and update guide](docs/INS
 |`{{ mobileGrade() }}`| Retrieve the mobile grading|`string: A, B or C`|
 |`{{ getUserAgent() }}`| Retrieve the User-Agent|`string`|
 |`{{ getHttpHeaders() }}`| Retrieves the HTTP headers|`array`|
-|`{{ isUserAgent($property) }}`| Checks for a certain property in the userAgent|`bool`|
+|`{{ isUserAgent($property) }}`| Checks for a certain [property](#user-content-list-of-user-agent-for--isuseragentproperty-) in the userAgent|`bool`|
+
 
 # Usage
 
