@@ -2,7 +2,6 @@
 
 [![Release](https://img.shields.io/github/release/dimitrilongo/grav-plugin-mobile-detect.svg)](https://github.com/dimitrilongo/grav-plugin-mobile-detect/releases)
 [![Issues](https://img.shields.io/github/issues/dimitrilongo/grav-plugin-mobile-detect.svg)](https://github.com/dimitrilongo/grav-plugin-mobile-detect/issues)
-[![License](https://img.shields.io/github/release/dimitrilongo/grav-plugin-mobile-detect.svg)](https://github.com/dimitrilongo/grav-plugin-mobile-detect/releases)
 [![Downloads](https://img.shields.io/github/downloads/dimitrilongo/grav-plugin-mobile-detect/total.svg)](https://github.com/dimitrilongo/grav-plugin-mobile-detect/archive/master.zip)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE.txt "License")
 
