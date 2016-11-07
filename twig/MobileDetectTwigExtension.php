@@ -32,7 +32,22 @@ class MobileDetectTwigExtension extends \Twig_Extension
           new \Twig_SimpleFunction('getUserAgent', [$this, 'getUserAgent']),
           new \Twig_SimpleFunction('getHttpHeaders', [$this, 'getHttpHeaders']),
           new \Twig_SimpleFunction('isUserAgent', [$this, 'is']),
+          new \Twig_SimpleFunction('version', [$this, 'version']),
       ];
+  }
+
+  /**
+   * Check the version of the given property in the User-Agent.
+   * @param  [$property] The name of the property.
+   * @return float (eg. 2_0 will return 2.0, 4.3.1 will return 4.31)
+   */
+  public function version($property)
+  {
+
+    // instantiate Mobile_Detect Object
+    $detect = new Mobile_Detect;
+
+    return $detect->version($property);
   }
 
   /**
