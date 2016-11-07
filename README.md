@@ -20,7 +20,7 @@
     * [getHttpHeaders](#retrieves-the-http-headers)
     * [mobileGrade](#retrieve-the-mobile-grading)
     * [isUserAgent](#user-content-list-of-user-agent-for--isuseragentproperty-)
-    * [version](#user-content-list-of-user-agent-for--isuseragentproperty-)
+    * [version](#user-content-get-the-version-of-the-given-property-in-the-user-agent)
 * [Disclaimer](#disclaimer)
 * [Troubleshooting](#troubleshooting)
 * [Contributing](#contributing)
@@ -188,8 +188,8 @@ You can mix :
 
 ## List of property in User Agent for `{{ version($property) }}`
 
-|Property|
-|-------------|-------------|
+|Property||||
+|-------------|-------------|-------------|-------------|
 |`Mobile`|`IE`|`Skyfire`|`Windows Phone OS`|
 |`Build`|`NetFront`|`Tizen`|`Windows Phone`|
 |`Version`|`NokiaBrowser`|`Webkit`|`Windows CE`|
