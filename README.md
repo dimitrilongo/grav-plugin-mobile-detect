@@ -20,6 +20,7 @@
     * [getHttpHeaders](#retrieves-the-http-headers)
     * [mobileGrade](#retrieve-the-mobile-grading)
     * [isUserAgent](#user-content-list-of-user-agent-for--isuseragentproperty-)
+    * [version](#user-content-list-of-user-agent-for--isuseragentproperty-)
 * [Disclaimer](#disclaimer)
 * [Troubleshooting](#troubleshooting)
 * [Contributing](#contributing)
@@ -57,7 +58,6 @@ For more informations, please check the [Installation and update guide](docs/INS
 |`{{ getUserAgent() }}`| Retrieve the User-Agent|`string`|
 |`{{ getHttpHeaders() }}`| Retrieves the HTTP headers|`array`|
 |`{{ isUserAgent($property) }}`| Checks for a certain [property](#user-content-list-of-user-agent-for--isuseragentproperty-) in the userAgent|`bool`|
-
 
 # Usage
 
@@ -175,6 +175,37 @@ You can mix :
     do something else
 {% endif %}
 ```
+
+#### Get the version of the given property in the User-Agent
+```
+{{ version('Android') }}
+```
+
+#### Example Output for `{{ version('Android') }}`
+```
+5.0
+```
+
+## List of property in User Agent for `{{ version($property) }}`
+
+|Property|
+|-------------|-------------|
+|`Mobile`|`IE`|`Skyfire`|`Windows Phone OS`|
+|`Build`|`NetFront`|`Tizen`|`Windows Phone`|
+|`Version`|`NokiaBrowser`|`Webkit`|`Windows CE`|
+|`iPad`|`Opera`|`PaleMoon`|`Windows NT`|
+|`iPhone`|`Opera Mini`|`Gecko`|`Symbian`|
+|`iPod`|`Opera Mobi`|`Trident`|`webOS`|
+|`Kindle`|`UC Browser`|`Presto`|`VendorID`|
+|`Chrome`|`MQQBrowser`|`Goanna`|
+|`Coast`|`MicroMessenger`|`iOS`|
+|`Dolfin`|`baiduboxapp`|`Android`|
+|`Firefox`|`baidubrowser`|`BlackBerry`|
+|`Fennec`|`Iron`|`BREW`|
+|`Edge`|`Safari`|`Java`|
+
+WARNING: this method is in BETA, some keyword properties will change in the future.
+For instance : [#376](https://github.com/serbanghita/Mobile-Detect/issues/376)
 
 # Troubleshooting
 
