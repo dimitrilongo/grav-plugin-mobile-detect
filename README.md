@@ -147,7 +147,7 @@ Quoted from [jQuery Mobile](http://jquerymobile.com/browser-support/1.4/)
 
 Graded Browser Support [jQuery Mobile](http://jquerymobile.com/browser-support/1.4/)
 
-## List of User Agent for `{{ isUserAgent($property) }}`
+## List of User Agent for `{{ isUserAgent($property) }}` ![Status](https://img.shields.io/badge/status-beta-red.svg)
 
 |Twig functions|Agent|Return|
 |-------------|-------------|-------------|
@@ -176,7 +176,8 @@ You can mix :
 {% endif %}
 ```
 
-#### Get the version of the given property in the User-Agent
+#### Get the version of the given property in the User-Agent ![Status](https://img.shields.io/badge/status-beta-red.svg)
+
 ```
 {{ version('Android') }}
 ```
