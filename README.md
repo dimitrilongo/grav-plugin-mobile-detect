@@ -210,6 +210,8 @@ For instance : [#376](https://github.com/serbanghita/Mobile-Detect/issues/376)
 
 # Troubleshooting
 
+Grav CMS Cache + Mobile Detect Conflict see [#1](https://github.com/dimitrilongo/grav-plugin-mobile-detect/issues)
+
 If you find a bug, [please open a new issue][issues]
 
 # Disclaimer
