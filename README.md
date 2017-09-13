@@ -79,7 +79,7 @@ Inside content files.
 ##### or using `{{ isMobile() }}`
 
 ```twig
-{% if isMobile()%}
+{% if isMobile() %}
     do something
 {% else %}
     do something else
@@ -110,7 +110,7 @@ Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTM
 ```twig
 <ol>
 {% for key,value in getHttpHeaders() %}
- <li> {{ key }} : {{ value }}</li>
+ <li>{{ key }} : {{ value }}</li>
 {% endfor %}
 </ol>
 ```
