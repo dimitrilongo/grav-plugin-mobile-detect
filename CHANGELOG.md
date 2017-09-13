@@ -1,3 +1,9 @@
+# v1.3.1
+##  09/13/2017
+
+1. [](#update)
+    * Update Mobile_Detect.php class to version 2.8.26
+    
 # v1.3.0
 ##  09/13/2017
 
