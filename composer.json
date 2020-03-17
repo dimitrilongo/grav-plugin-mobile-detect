@@ -1,0 +1,20 @@
+{
+    "name": "getgrav/mobile-detect",
+    "type": "grav-plugin",
+    "description": "The Grav Mobile Detect Plugin for Grav adds the ability to detect mobile devices (including tablets). It uses the User-Agent string combined with specific HTTP headers to detect the mobile environment.",
+    "keywords": ["mobile, grav, plugin, header"],
+    "homepage": "https://github.com/dimitrilongo/grav-plugin-mobile-detect",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Dimitri Longo",
+            "email": "info@elanathemes.fr",
+            "homepage": "https://elanathemes.fr",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=7.1.3",
+        "mobiledetect/mobiledetectlib": "dev-master"
+    }
+}

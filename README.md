@@ -239,7 +239,6 @@ See also the list of [contributors] who participated in this project.
 
 See [Licence](https://github.com/dimitrilongo/grav-plugin-mobile-detect/blob/master/LICENSE.txt)
 
-
 [![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fdimitrilongo%2Fgrav-plugin-mobile-detect.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2Fdimitrilongo%2Fgrav-plugin-mobile-detect?ref=badge_large)
 
 # Thanks
