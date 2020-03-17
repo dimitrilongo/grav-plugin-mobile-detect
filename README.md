@@ -4,6 +4,7 @@
 [![Issues](https://img.shields.io/github/issues/dimitrilongo/grav-plugin-mobile-detect.svg)](https://github.com/dimitrilongo/grav-plugin-mobile-detect/issues)
 [![Downloads](https://img.shields.io/github/downloads/dimitrilongo/grav-plugin-mobile-detect/total.svg)](https://github.com/dimitrilongo/grav-plugin-mobile-detect/archive/master.zip)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE.txt "License")
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fdimitrilongo%2Fgrav-plugin-mobile-detect.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Fdimitrilongo%2Fgrav-plugin-mobile-detect?ref=badge_shield)
 
 > This plugin introduces mobile detection.
 
