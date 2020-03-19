@@ -1,3 +1,15 @@
+# v1.4.2
+##  03/19/2020
+
+1. [](#bugfix)
+    - Remove Mobile Detect submodule [#9](https://github.com/dimitrilongo/grav-plugin-mobile-detect/issues/9)
+
+# v1.4.1
+##  03/17/2020
+
+1. [](#improved)
+    - Change changelog date format
+
 # v1.4
 ##  03/17/2020
 
