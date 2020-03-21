@@ -1,3 +1,9 @@
+# v1.4.3
+##  03/21/2020
+
+1. [](#improved)
+    - Update Mobile Detect library with `composer install`
+
 # v1.4.2
 ##  03/19/2020
 
